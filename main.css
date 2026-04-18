@@ -1,0 +1,163 @@
+body { 
+    font-family: sans-serif; 
+    margin: 0; 
+    background-color: #f7f7f7; 
+}
+
+/* Navbar */
+.umar1 { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 80px; 
+    background: white; 
+}
+
+.umar-link { 
+    text-decoration: none; 
+    color: #333; 
+    margin: 0 15px; 
+    font-size: 14px;
+}
+
+.narangi { 
+    color: orange !important; 
+}
+
+/* Banner */
+.umar4 { 
+    background-color: #ffaa33; 
+    margin: 20px 80px; 
+    padding: 40px; 
+    border-radius: 20px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    color: white; 
+}
+
+.umar-belgi { 
+    background: white; 
+    color: orange; 
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    font-weight: bold; 
+}
+
+.velosiped { 
+    width: 250px; 
+}
+
+/* Kategoriyalar */
+.umar5 { 
+    padding: 0 80px; 
+    margin-top: 30px; 
+}
+
+.tur-tugma { 
+    background: orange; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    margin-bottom: 20px; 
+}
+
+.umar6-konteyner { 
+    display: flex; 
+    justify-content: space-between; 
+    gap: 10px; 
+}
+
+.umar6 { 
+    background: white; 
+    padding: 15px; 
+    flex: 1; 
+    text-align: center; 
+    border-radius: 10px; 
+    border: 1px solid #eee;
+    transition: 0.3s;
+}
+
+.umar6:hover {
+    transform: translateY(-5px);
+    border-color: orange;
+}
+
+.umar6 img { 
+    width: 40px; 
+}
+
+.umar6 p { 
+    font-size: 12px; 
+    color: orange; 
+    font-weight: bold; 
+}
+
+/* Mahsulotlar */
+.umar7 { 
+    text-align: center; 
+    margin-top: 50px; 
+}
+
+.umar8-konteyner { 
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+    padding: 20px 80px; 
+    flex-wrap: wrap; 
+}
+
+.umar8 { 
+    background: white; 
+    padding: 20px; 
+    width: 220px; 
+    border-radius: 15px; 
+    text-align: left; 
+    border: 1px solid #eee;
+    transition: 0.3s;
+}
+
+.tanlangan { 
+    border: 2px solid orange !important; 
+}
+
+.tovar-rasm { 
+    width: 100%; 
+    height: 150px; 
+    object-fit: contain; 
+}
+
+.tovar-turi { 
+    font-size: 11px; 
+    color: #999; 
+}
+
+.tovar-nomi { 
+    font-size: 16px; 
+    margin: 10px 0; 
+}
+
+.tovar-pastki { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.tovar-narxi { 
+    font-weight: bold; 
+}
+
+.umar9 { 
+    background: #fff5e6; 
+    color: orange; 
+    border: none; 
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+.tugma-narangi { 
+    background: orange !important; 
+    color: white !important; 
+}

@@ -1,0 +1,319 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f5f6fb;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.umar1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 70px;
+    background: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.menular {
+    display: flex;
+    gap: 28px;
+}
+
+.umar-link {
+    color: #5d5d5d;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.umar-link.narangi {
+    color: #ff8a00;
+}
+
+.tugmalar {
+    display: flex;
+    gap: 12px;
+}
+
+.umar2,
+.umar3 {
+    border: none;
+    border-radius: 10px;
+    padding: 12px 22px;
+    font-weight: 600;
+}
+
+.umar2 {
+    background: #fff;
+    color: #333;
+    box-shadow: 0 10px 20px rgba(255, 138, 0, 0.12);
+}
+
+.umar3 {
+    background: #ff8a00;
+    color: white;
+}
+
+.umar4 {
+    margin: 30px 70px 0;
+    background: linear-gradient(135deg, #ff9800 0%, #ffb74d 100%);
+    border-radius: 28px;
+    padding: 40px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.banner-tekst {
+    max-width: 520px;
+}
+
+.umar-belgi {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.95);
+    color: #ff8a00;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.umar4 h1 {
+    margin: 0;
+    font-size: 56px;
+    line-height: 1.05;
+    color: white;
+}
+
+.umar4 p {
+    margin: 18px 0 0;
+    font-size: 18px;
+    color: #fff;
+    opacity: 0.92;
+}
+
+.velosiped {
+    max-width: 360px;
+    width: 100%;
+}
+
+.umar5 {
+    margin: 35px 70px 0;
+}
+
+.tur-tugma {
+    background: #ff8a00;
+    border: none;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 12px 24px;
+    margin-bottom: 20px;
+}
+
+.umar6-konteyner {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 16px;
+}
+
+.umar6 {
+    background: white;
+    border-radius: 20px;
+    padding: 22px 14px;
+    text-align: center;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.04);
+    transition: transform 0.25s ease, border 0.25s ease;
+    border: 1px solid transparent;
+}
+
+.umar6:hover {
+    transform: translateY(-6px);
+    border-color: #ff8a00;
+}
+
+.umar6 img {
+    width: 58px;
+    margin-bottom: 16px;
+}
+
+.umar6 p {
+    margin: 0;
+    font-weight: 700;
+    font-size: 14px;
+    color: #ff8a00;
+}
+
+.all-products {
+    margin: 45px 70px 35px;
+}
+
+.all-products h2 {
+    margin: 0 0 22px;
+    font-size: 30px;
+}
+
+.search-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 14px;
+    margin-bottom: 30px;
+}
+
+.search-input {
+    flex: 1;
+    border-radius: 14px;
+    border: 1px solid #dedede;
+    padding: 14px 20px;
+    font-size: 15px;
+    outline: none;
+    background: white;
+}
+
+.search-button {
+    border: none;
+    border-radius: 14px;
+    background: #ff8a00;
+    color: white;
+    padding: 0 28px;
+    font-weight: 700;
+    min-width: 120px;
+}
+
+.umar8-konteyner {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 20px;
+}
+
+.umar8 {
+    background: white;
+    border-radius: 24px;
+    padding: 18px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05);
+    transition: transform 0.25s ease;
+}
+
+.umar8:hover {
+    transform: translateY(-8px);
+}
+
+.tovar-rasm {
+    width: 100%;
+    border-radius: 18px;
+    object-fit: cover;
+    height: 210px;
+}
+
+.tovar-turi {
+    display: inline-block;
+    margin-top: 16px;
+    font-size: 12px;
+    color: #8b8b8b;
+}
+
+.tovar-nomi {
+    margin: 10px 0 12px;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+.tovar-pastki {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.tovar-narxi {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.umar9 {
+    background: #fff5e6;
+    color: #ff8a00;
+    border: none;
+    border-radius: 14px;
+    padding: 10px 16px;
+    font-weight: 700;
+}
+
+.tugma-narangi {
+    background: #ff8a00 !important;
+    color: white !important;
+}
+
+@media (max-width: 1280px) {
+    .umar6-konteyner {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .umar8-konteyner {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 980px) {
+    .umar1 {
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 18px 30px;
+    }
+
+    .umar4,
+    .umar5,
+    .all-products {
+        margin: 30px 30px 0;
+    }
+
+    .umar4 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menular {
+        justify-content: center;
+    }
+
+    .umar6-konteyner,
+    .umar8-konteyner {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 680px) {
+    .umar6-konteyner,
+    .umar8-konteyner {
+        grid-template-columns: 1fr;
+    }
+
+    .tugmalar {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .search-section {
+        flex-direction: column;
+    }
+}
